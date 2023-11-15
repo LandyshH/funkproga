@@ -1,4 +1,4 @@
-module MyLib where
+module MyLib(zipLong) where
 
 import Data.Maybe
 

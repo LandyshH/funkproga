@@ -29,19 +29,20 @@ version:            0.1.0.0
 -- description:
 
 -- The license under which the package is released.
-license:            AGPL-3.0-or-later
+license:            BSD-2-Clause
 
 -- The file containing the license text.
 license-file:       LICENSE
 
 -- The package author(s).
-author:             Mansur Ziiatdinov
+author:             Landyshh
 
 -- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         gltronred@gmail.com
+maintainer:         zhabkakisa@gmail.com
 
 -- A copyright notice.
 -- copyright:
+category:           Codec
 build-type:         Simple
 
 -- Extra doc files to be distributed with the package, such as a CHANGELOG or a README.
@@ -67,7 +68,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.16.4.0
+    build-depends:    base ^>=4.18.0.0
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -90,7 +91,7 @@ executable p0
 
     -- Other library packages from which modules are imported.
     build-depends:
-        base ^>=4.16.4.0,
+        base ^>=4.18.0.0,
         p0
 
     -- Directories containing source files.
@@ -123,7 +124,7 @@ test-suite p0-test
 
     -- Test dependencies.
     build-depends:
-        base ^>=4.16.4.0,
+        base ^>=4.18.0.0,
         p0,
         tasty >=1.5,
         tasty-hunit >=0.10,
